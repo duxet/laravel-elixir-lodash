@@ -1,0 +1,27 @@
+{
+  "name": "laravel-elixir-lodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duxet/laravel-elixir-lodash.git"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "lodash"
+  ],
+  "author": "duxet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duxet/laravel-elixir-lodash/issues"
+  },
+  "homepage": "https://github.com/duxet/laravel-elixir-lodash#readme",
+  "dependencies": {
+    "gulp-template": "^4.0.0"
+  }
+}
