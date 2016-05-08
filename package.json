@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-lodash",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "url": "https://github.com/duxet/laravel-elixir-lodash/issues"
   },
   "homepage": "https://github.com/duxet/laravel-elixir-lodash#readme",
-  "dependencies": {
-    "gulp-template": "^4.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-template-compile": "^1.1.0"
   }
 }

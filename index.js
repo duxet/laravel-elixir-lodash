@@ -1,5 +1,5 @@
 var gulp    = require('gulp')
-var template = require('gulp-template')
+var template = require('gulp-template-compile')
 var Elixir = require('laravel-elixir')
 
 var $ = Elixir.Plugins
@@ -15,7 +15,7 @@ Elixir.extend('lodash', function(src, output, options) {
         var paths = prepGulpPaths(src, output)
 
         return gulp.src(paths.src.path)
-          .pipe(template.precompile(options || config.js.lodash.options))
+          .pipe(template(options || config.js.lodash.options))
           .pipe($.concat(paths.output.name))
           .pipe($.if(config.production, $.uglify(config.js.uglify.options)))
           .pipe(gulp.dest(paths.output.baseDir))
